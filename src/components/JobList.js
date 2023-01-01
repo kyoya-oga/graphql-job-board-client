@@ -5,9 +5,7 @@ function JobItem({ job }) {
   return (
     <li className="media">
       <div className="media-content">
-        <Link to={`/jobs/${job.id}`}>
-          {title}
-        </Link>
+        <Link to={`/jobs/${job.id}`}>{title}</Link>
       </div>
     </li>
   );
